@@ -341,7 +341,7 @@ def update_misp_event(misp_instance, event, isight_alert):
 
     # Lastly, publish the event without sending an alert email.
     # This command expects the event ID instead of a MISPevent as argument.
-    misp_instance.publish(event['id'], alert=False)
+    #misp_instance.publish(event['id'], alert=False)
 
 
 # Create a new MISP event.
